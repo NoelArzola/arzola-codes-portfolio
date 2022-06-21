@@ -1,13 +1,15 @@
 import React from "react";
+import { bio } from "./data";
 
 const Bio = () => {
   return (
     <section>
       <h2>About me</h2>
       <div>
-        <p>Hi. This is something about me, eventually</p>
+        <h3>{bio.heading}</h3>
+        <p>{bio.paragraph}</p>
         <figure>
-          <img src="" alt="Also. This is image of me, eventually" />
+          <img src={bio.imageURL} alt="Me smiling in a dress shirt" />
         </figure>
       </div>
     </section>
