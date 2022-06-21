@@ -54,8 +54,6 @@ const Tools = () => {
       <h3>{tool.name}</h3>
     </li>
   ));
-  // console.log(array);
-  // return <ul>{displayTools}</ul>;
 
   return (
     <section>
