@@ -4,16 +4,25 @@ import Hero from "./Hero";
 import Tools from "./Tools";
 import Bio from "./Bio";
 import Footer from "./Footer";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Routes,
+  Route,
+  Link,
+} from "react-router-dom";
 
 function App() {
   return (
-    <div>
-      <Nav />
-      <Hero />
-      <Tools />
-      <Bio />
-      <Footer />
-    </div>
+    <Router>
+      <div>
+        <Nav />
+        <Hero />
+        <Tools />
+        <Bio />
+        <Footer />
+      </div>
+    </Router>
   );
 }
 

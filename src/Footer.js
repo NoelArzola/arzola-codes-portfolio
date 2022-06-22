@@ -2,6 +2,12 @@ import React from "react";
 import { contactInfo, followMe, meetMe } from "./data";
 
 const Footer = () => {
+  const displaySocial = followMe.map((item) => (
+    <a href={item.url} key={item.name}>
+      {item.icon}
+    </a>
+  ));
+
   return (
     <footer>
       <h2>hello, world</h2>
@@ -12,12 +18,8 @@ const Footer = () => {
           <p>{contactInfo.email}</p>
         </div>
         <div>
-          <h3>{followMe.heading}</h3>
-          <div>
-            <a href={followMe.twitter.url}>{followMe.twitter.icon}</a>
-            <a href={followMe.gitHub.url}>{followMe.gitHub.icon}</a>
-            <a href={followMe.linkedIn.url}>{followMe.linkedIn.icon}</a>
-          </div>
+          <h3>follow me</h3>
+          <div>{displaySocial}</div>
         </div>
         <div>
           <h3>{meetMe.heading}</h3>

@@ -1,23 +1,17 @@
 import React from "react";
+import { navItems } from "./data";
 
 const Nav = () => {
+  const displayNav = navItems.map((item, index) => (
+    <li key={item.title}>
+      <a href={item.navLink}>{item.title}</a>
+    </li>
+  ));
+
   return (
-    <nav>
-      <h2>@arzolacodes</h2>
-      <ul>
-        <li>
-          <a href="">services</a>
-        </li>
-        <li>
-          <a href="">projects</a>
-        </li>
-        <li>
-          <a href="">bio</a>
-        </li>
-        <li>
-          <a href="">contact</a>
-        </li>
-      </ul>
+    <nav className="flex flex-row">
+      <h2 className="text-3xl">@arzolacodes</h2>
+      <ul>{displayNav}</ul>
     </nav>
   );
 };
