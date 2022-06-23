@@ -4,4 +4,5 @@
 
 .icon-chevronright::after {
   content: ">";
+  padding-left: 0.55rem;
 }

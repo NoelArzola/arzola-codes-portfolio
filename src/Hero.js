@@ -11,7 +11,7 @@ const Hero = () => {
       <div className="mt-2 flex justify-center">
         <a
           className="text-3xl text-link-blue hover:underline icon-chevronright"
-          href="#"
+          href="/services"
         >
           View services
         </a>
