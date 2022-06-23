@@ -6,16 +6,16 @@ import Bio from "./Bio";
 import Footer from "./Footer";
 import {
   BrowserRouter as Router,
-  Switch,
-  Routes,
-  Route,
-  Link,
+  // Switch,
+  // Routes,
+  // Route,
+  // Link,
 } from "react-router-dom";
 
 function App() {
   return (
     <Router>
-      {/* <Nav /> */}
+      <Nav />
       <Hero />
       <Tools />
       <Bio />
