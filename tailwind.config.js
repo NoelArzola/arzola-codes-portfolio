@@ -1,9 +1,17 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   mode: "jit",
-  purge: ["./src/**/*.{js,jsx,ts,tsx}", "./public/index.html"],
+  purge: {
+    content: ["./public/**/*.html", "./src/**/*.{js,jsx,ts,tsx,vue}"],
+  },
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        "gray-lightest": "#FBFBFD",
+        "almost-white": "#F5F5F7",
+        "link-blue": "#06C",
+      },
+    },
   },
   plugins: [],
 };

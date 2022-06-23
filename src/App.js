@@ -15,13 +15,11 @@ import {
 function App() {
   return (
     <Router>
-      <div>
-        <Nav />
-        <Hero />
-        <Tools />
-        <Bio />
-        <Footer />
-      </div>
+      {/* <Nav /> */}
+      <Hero />
+      <Tools />
+      <Bio />
+      <Footer />
     </Router>
   );
 }
