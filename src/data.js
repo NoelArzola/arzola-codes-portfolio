@@ -101,8 +101,12 @@ export const bio = {
 
 export const contactInfo = {
   heading: "hire me",
-  phoneNumber: "740-315-8315",
-  email: "noel@arzola.codes",
+  phoneNumber: <a href="tel:+17403158315">+1 740-315-8315</a>,
+  email: (
+    <a href="mailto:noel@arzola.codes" target="_blank" rel="noreferrer">
+      noel@arzola.codes
+    </a>
+  ),
 };
 
 export const followMe = [
@@ -112,7 +116,10 @@ export const followMe = [
     icon: (
       <span className="fa-stack">
         <i className="fas fa-circle fa-stack-2x" aria-hidden="true"></i>
-        <i className="fab fa-twitter fa-stack-1x" aria-hidden="true"></i>
+        <i
+          className="text-almost-white hover:text-white fab fa-twitter fa-stack-1x"
+          aria-hidden="true"
+        ></i>
       </span>
     ),
   },
@@ -121,7 +128,10 @@ export const followMe = [
     url: "https://github.com/NoelArzola",
     icon: (
       <span>
-        <i className="fab fa-github" aria-hidden="true"></i>
+        <i
+          className="text-3xl hover:bg-white fab fa-github"
+          aria-hidden="true"
+        ></i>
       </span>
     ),
   },
@@ -131,7 +141,10 @@ export const followMe = [
     icon: (
       <span className="fa-stack">
         <i className="fas fa-circle fa-stack-2x" aria-hidden="true"></i>
-        <i className="fab fa-linkedin-in fa-stack-1x" aria-hidden="true"></i>
+        <i
+          className="text-almost-white hover:text-white fab fa-linkedin-in fa-stack-1x"
+          aria-hidden="true"
+        ></i>
       </span>
     ),
   },
