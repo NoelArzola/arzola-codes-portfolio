@@ -67,24 +67,27 @@ export const toolsArray = [
 export const projectArray = [
   {
     title: "Netflix Clone",
-    tools: "React, Firebase",
+    tools: "HTML, CSS, React Javascript, Firebase",
     description: "",
     imageURL: "",
+    imageALT: "A clone of the Netflix website",
     codeURL: "https://github.com/NoelArzola/netflix-clone",
   },
   {
     title: "Hulu Clone",
-    tools: "React, Firebase",
+    tools: "HTML, CSS, React Javascript, Firebase",
     description: "",
     imageURL: "",
+    imageALT: "A clone of the Hulu website",
     codeURL: "https://github.com/NoelArzola/hulu-clone",
   },
   {
     title: "Amazon Clone",
-    tools: "React, Firebase",
+    tools: "HTML, CSS, React Javascript, Firebase",
     description:
       "Features user signup, user login/out, many products, and a fully functioning cart",
     imageURL: "https://noelarzola.com/img/amazon.png",
+    imageALT: "A clone of the Amazon website",
     codeURL: "https://github.com/NoelArzola/amazon-clone",
   },
 ];
@@ -135,6 +138,7 @@ export const followMe = [
 ];
 
 export const meetMe = {
+  heading: "meet me",
   cityState: "Vienna, WV",
   tagline: "Let's grab a coffee!",
 };

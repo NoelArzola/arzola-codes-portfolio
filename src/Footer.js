@@ -9,25 +9,29 @@ const Footer = () => {
   ));
 
   return (
-    <footer>
-      <h2>hello, world</h2>
-      <div>
-        <div>
-          <h3>{contactInfo.heading}</h3>
-          <p>{contactInfo.phoneNumber}</p>
-          <p>{contactInfo.email}</p>
+    <footer className="bg-almost-white pt-12 pb-4">
+      <div className="max-w-7xl mx-auto">
+        <h2 className="text-4xl text-center">hello, world</h2>
+        <div className="flex justify-center mt-7">
+          <div className="w-1/3 text-center">
+            <h3 className="text-2xl">{contactInfo.heading}</h3>
+            <p>{contactInfo.phoneNumber}</p>
+            <p>{contactInfo.email}</p>
+          </div>
+          <div className="w-1/3 text-center">
+            <h3 className="text-2xl">follow me</h3>
+            <div>{displaySocial}</div>
+          </div>
+          <div className="w-1/3 text-center">
+            <h3 className="text-2xl">{meetMe.heading}</h3>
+            <p>{meetMe.cityState}</p>
+            <p>{meetMe.tagline}</p>
+          </div>
         </div>
-        <div>
-          <h3>follow me</h3>
-          <div>{displaySocial}</div>
-        </div>
-        <div>
-          <h3>{meetMe.heading}</h3>
-          <p>{meetMe.location}</p>
-          <p>{meetMe.tagline}</p>
-        </div>
+        <h5 className="text-center border-gray-for-sure border-t mt-8 pt-4 pb-0.5">
+          Copyright {new Date().getFullYear()} | Arzola Solutions, LLC
+        </h5>
       </div>
-      <h5>Copyright {new Date().getFullYear()} | Arzola Solutions, LLC</h5>
     </footer>
   );
 };
