@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-.icon-chevronright::after {
-  content: ">";
+/* .icon-chevronright::after {
+  content: "\f105";
   padding-left: 0.55rem;
-}
+} */

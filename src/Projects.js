@@ -14,13 +14,13 @@ const displayProjects = projectArray.map((project) => (
         href={project.liveURL}
         className="text-link-blue hover:underline icon-chevronright"
       >
-        View live
+        View live<i class="pl-2 text-xs fa-solid fa-chevron-right"></i>
       </a>
       <a
         href={project.codeURL}
-        className="text-link-blue hover:underline icon-chevronright ml-4"
+        className="text-link-blue hover:underline icon-chevronright ml-9"
       >
-        View code
+        View code<i class="pl-2 text-xs fa-solid fa-chevron-right"></i>
       </a>
     </div>
     <figure className="mt-5 px-8">
