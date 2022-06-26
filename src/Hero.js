@@ -15,13 +15,13 @@ const Hero = () => {
             href="/services"
           >
             View services
-            <i class="pl-2 text-xl fa-solid fa-chevron-right"></i>
+            <i className="pl-2 text-xl fa-solid fa-chevron-right"></i>
           </a>
           <a
             className="text-xl lg:text-3xl text-link-blue hover:underline icon-chevronright ml-9"
             href="#contact"
           >
-            Contact me<i class="pl-2 text-xl fa-solid fa-chevron-right"></i>
+            Contact me<i className="pl-2 text-xl fa-solid fa-chevron-right"></i>
           </a>
         </div>
       </div>
