@@ -88,6 +88,7 @@ export const projectArray = [
       "Features user signup, user login/out, many products, and a fully functioning cart",
     imageURL: "https://noelarzola.com/img/amazon.png",
     imageALT: "A clone of the Amazon website",
+    liveURL: "https://clone-fac52.web.app/",
     codeURL: "https://github.com/NoelArzola/amazon-clone",
   },
 ];
