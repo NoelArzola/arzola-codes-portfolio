@@ -1,15 +1,12 @@
 import "./App.css";
 import Nav from "./Nav";
-import Hero from "./Hero";
-import Tools from "./Tools";
-import Bio from "./Bio";
-import Projects from "./Projects";
+import Services from "./Services";
+import Home from "./Home";
 import Footer from "./Footer";
 import {
   BrowserRouter as Router,
-  // Switch,
-  // Routes,
-  // Route,
+  Route,
+  Routes,
   // Link,
 } from "react-router-dom";
 
@@ -17,10 +14,10 @@ function App() {
   return (
     <Router>
       <Nav />
-      <Hero />
-      <Tools />
-      <Projects />
-      <Bio />
+      <Routes>
+        <Route path="/services" element={<Services />} />
+        <Route path="/" element={<Home />} />
+      </Routes>
       <Footer />
     </Router>
   );
