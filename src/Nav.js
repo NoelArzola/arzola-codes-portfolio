@@ -6,13 +6,16 @@ const homeButton = "@arzolacodes";
 
 const Nav = () => {
   const displayNav = navItems.map((item) => {
-    return item.title === "services" ? (
+    return (
       <li key={item.title} className="hover:text-white px-4">
-        <Link to={item.navLink}>{item.title}</Link>
-      </li>
-    ) : (
-      <li key={item.title} className="hover:text-white px-4">
-        <a href={item.navLink}>{item.title}</a>
+        <Link
+          to={{
+            pathname: item.navLink,
+            hash: item.hash,
+          }}
+        >
+          {item.title}
+        </Link>
       </li>
     );
   });
