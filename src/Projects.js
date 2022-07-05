@@ -31,14 +31,14 @@ const displayProjects = projectArray.map((project) => (
 
 const Projects = () => {
   return (
-    <div id="projects" className="bg-gray-lightest max-w-7xl mx-auto py-12">
+    <section id="projects" className="bg-gray-lightest max-w-7xl mx-auto py-12">
       <h2 className="font-jetbrains text-3xl lg:text-4xl text-center">
         my projects
       </h2>
       <ul className="flex flex-col lg:flex-row justify-between mt-12">
         {displayProjects}
       </ul>
-    </div>
+    </section>
   );
 };
 
