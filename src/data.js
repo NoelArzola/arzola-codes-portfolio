@@ -126,6 +126,7 @@ export const followMe = [
         ></i>
       </span>
     ),
+    aria: "This is a link to my Twitter page",
   },
   {
     name: "GitHub",
@@ -138,6 +139,7 @@ export const followMe = [
         ></i>
       </span>
     ),
+    aria: "This is a link to my GitHub page",
   },
   {
     name: "LinkedIn",
@@ -151,6 +153,7 @@ export const followMe = [
         ></i>
       </span>
     ),
+    aria: "This is a link to my LinkedIn page",
   },
 ];
 
