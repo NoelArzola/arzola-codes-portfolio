@@ -1,19 +1,22 @@
 export const navItems = [
   {
     title: "services",
-    navLink: "#",
+    navLink: "/services",
   },
   {
     title: "projects",
-    navLink: "#projects",
+    navLink: "/",
+    hash: "#projects",
   },
   {
     title: "about",
-    navLink: "#about",
+    navLink: "/",
+    hash: "#about",
   },
   {
     title: "contact",
-    navLink: "#contact",
+    navLink: "/",
+    hash: "#contact",
   },
 ];
 
