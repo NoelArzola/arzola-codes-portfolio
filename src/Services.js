@@ -4,7 +4,7 @@ import { services } from "./data";
 const Services = () => {
   const displayServices = (servicesArray) => {
     return servicesArray.map((service) => (
-      <div className="bg-almost-white py-24 w-[49%]">
+      <div className="bg-almost-white py-24 w-[49%]" key={service.name}>
         <div>
           <h2 className="text-2xl text-center">{service.icon}</h2>
           <h2 className="font-jetbrains text-2xl text-center">

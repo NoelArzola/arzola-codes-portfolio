@@ -3,7 +3,7 @@ import { bio } from "./data";
 
 const Bio = () => {
   return (
-    <section
+    <aside
       id="about"
       className="max-w-7xl mx-auto bg-black text-almost-white py-24"
     >
@@ -23,7 +23,7 @@ const Bio = () => {
           />
         </figure>
       </div>
-    </section>
+    </aside>
   );
 };
 
