@@ -23,9 +23,18 @@ const displayProjects = projectArray.map((project) => (
         View code<i className="pl-2 text-xs fa-solid fa-chevron-right"></i>
       </a>
     </div>
-    <figure className="mt-5 px-8">
+    <figure className={project.comingSoon ? "hidden mt-5 px-8" : "mt-5 px-8"}>
       <img src={project.imageURL} alt={project.imageALT} />
     </figure>
+    <h3
+      className={
+        project.comingSoon
+          ? "font-jetbrains font-bold text-4xl text-center mt-2.5 md:mt-5 py-6 md:py-24"
+          : "hidden"
+      }
+    >
+      Coming Soon!
+    </h3>
   </li>
 ));
 
