@@ -6,7 +6,7 @@ import Bio from "./Bio";
 
 const Home = () => {
   return (
-    <main>
+    <main role="main">
       <Hero />
       <Tools />
       <Projects />

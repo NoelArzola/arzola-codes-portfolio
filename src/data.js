@@ -70,25 +70,29 @@ export const toolsArray = [
 export const projectArray = [
   {
     title: "Netflix Clone",
-    tools: "HTML, CSS, React Javascript, Firebase",
-    description: "",
+    tools: "HTML, CSS, React Javascript, Redux, Firebase, Stripe",
+    description:
+      "Features user sign-ups, user login/out, payments, user profiles, and a full functional interface including 'My List'",
+    comingSoon: true,
     imageURL: "",
     imageALT: "A clone of the Netflix website",
     codeURL: "https://github.com/NoelArzola/netflix-clone",
   },
   {
-    title: "Hulu Clone",
-    tools: "HTML, CSS, React Javascript, Firebase",
-    description: "",
+    title: "Facebok Clone",
+    tools: "HTML, CSS, React Javascript, Next.js, Tailwind, Firebase",
+    description:
+      "Features Facebook authentication for login/out, status updates, a real-time feed, and image uploading",
+    comingSoon: true,
     imageURL: "",
     imageALT: "A clone of the Hulu website",
     codeURL: "https://github.com/NoelArzola/hulu-clone",
   },
   {
     title: "Amazon Clone",
-    tools: "HTML, CSS, React Javascript, Firebase",
+    tools: "HTML, CSS, React Javascript, Firebase, Stripe",
     description:
-      "Features user signup, user login/out, many products, and a fully functioning cart",
+      "Features user signups, user login/out, many products, and a fully functioning cart with checkout and payments",
     imageURL: "https://noelarzola.com/img/amazon.png",
     imageALT: "A clone of the Amazon website",
     liveURL: "https://clone-fac52.web.app/",
@@ -126,6 +130,7 @@ export const followMe = [
         ></i>
       </span>
     ),
+    aria: "This is a link to my Twitter page",
   },
   {
     name: "GitHub",
@@ -138,6 +143,7 @@ export const followMe = [
         ></i>
       </span>
     ),
+    aria: "This is a link to my GitHub page",
   },
   {
     name: "LinkedIn",
@@ -151,6 +157,7 @@ export const followMe = [
         ></i>
       </span>
     ),
+    aria: "This is a link to my LinkedIn page",
   },
 ];
 

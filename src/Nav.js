@@ -47,7 +47,10 @@ class Nav extends React.Component {
             : "bg-black text-almost-white sticky top-0 opacity-80 backdrop-saturate-[180%] backdrop-blur-[20px] ease-out duration-500"
         }
       >
-        <nav className="flex flex-row justify-between items-center max-w-7xl mx-auto px-4 py-4">
+        <nav
+          className="flex flex-row justify-between items-center max-w-7xl mx-auto px-4 py-4"
+          role="navigation"
+        >
           <h2 className="font-jetbrains hover:text-white text-2xl text-red">
             <Link to="/">{this.homeButton}</Link>
           </h2>
@@ -60,6 +63,8 @@ class Nav extends React.Component {
             }
             type="button"
             onClick={this.handleClick}
+            aria-label="Mobile Navigation Button"
+            aria-controls="navigation"
           >
             <span className="hamburger-box">
               <span className="hamburger-inner"></span>
@@ -67,6 +72,7 @@ class Nav extends React.Component {
           </button>
         </nav>
         <ul
+          id="navigation"
           className={
             this.state.isToggled
               ? "flex flex-col lg:hidden items-center h-screen border-almost-white border-t z-10 fixed bg-black w-full text-2xl pt-24"

@@ -9,13 +9,18 @@ const Footer = () => {
       className="px-1"
       target="_blank"
       rel="noreferrer"
+      aria-label={item.aria}
     >
       {item.icon}
     </a>
   ));
 
   return (
-    <footer id="contact" className="bg-almost-white pt-12 pb-4">
+    <footer
+      id="contact"
+      className="bg-almost-white pt-12 pb-4"
+      role="contentinfo"
+    >
       <div className="max-w-7xl mx-auto">
         <h2 className="font-jetbrains text-3xl lg:text-4xl text-center">
           contact
@@ -38,11 +43,11 @@ const Footer = () => {
             <p>{meetMe.tagline}</p>
           </div>
         </div>
-        <h5 className="text-center border-gray-for-sure border-t mt-8 pt-4 pb-0.5">
+        <h4 className="text-center border-gray-for-sure border-t mt-8 pt-4 pb-0.5">
           Built with React <i className="fab fa-react" aria-hidden="true"></i>
           <span className="hidden">Javascript!</span> | Copyright{" "}
           {new Date().getFullYear()} | Arzola Solutions, LLC
-        </h5>
+        </h4>
       </div>
     </footer>
   );

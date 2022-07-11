@@ -16,7 +16,7 @@ const Services = () => {
     ));
   };
   return (
-    <main className="max-w-7xl mx-auto bg-gray-lightest pb-2">
+    <main className="max-w-7xl mx-auto bg-gray-lightest pb-2" role="main">
       <h1 className="font-jetbrains text-4xl text-center py-16">services</h1>
       <div className="flex flex-wrap justify-center gap-2">
         {displayServices(services)}
