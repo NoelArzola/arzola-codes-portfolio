@@ -78,6 +78,7 @@ class Nav extends React.Component {
               ? "flex flex-col lg:hidden items-center h-screen border-almost-white border-t z-10 fixed bg-black w-full text-2xl pt-24"
               : "hidden"
           }
+          onClick={this.handleClick}
         >
           {this.displayNav}
         </ul>
