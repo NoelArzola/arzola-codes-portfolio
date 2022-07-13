@@ -1,4 +1,5 @@
 import React from "react";
+import { HashLink as Link } from "react-router-hash-link";
 
 const Hero = () => {
   return (
@@ -13,19 +14,22 @@ const Hero = () => {
           <span>let's collaborate</span>
         </p>
         <div className="mt-4 flex justify-center">
-          <a
+          <Link
+            to="/services"
             className="text-xl lg:text-3xl text-link-blue hover:underline icon-chevronright"
-            href="/services"
           >
             View services
             <i className="pl-2 text-xl fa-solid fa-chevron-right"></i>
-          </a>
-          <a
+          </Link>
+          <Link
+            to={{
+              pathname: "/",
+              hash: "contact",
+            }}
             className="text-xl lg:text-3xl text-link-blue hover:underline icon-chevronright ml-9"
-            href="#contact"
           >
             Contact me<i className="pl-2 text-xl fa-solid fa-chevron-right"></i>
-          </a>
+          </Link>
         </div>
       </div>
     </header>
