@@ -48,10 +48,10 @@ class Nav extends React.Component {
         }
       >
         <nav
-          className="flex flex-row justify-between items-center max-w-7xl mx-auto px-4 py-4"
+          className="h-12 lg:h-full flex flex-row justify-between items-center max-w-7xl mx-auto pl-4 lg:px-4 py-4"
           role="navigation"
         >
-          <h2 className="font-jetbrains hover:text-white text-2xl text-red">
+          <h2 className="font-jetbrains hover:text-white text-lg lg:text-2xl text-red">
             <Link to="/">{this.homeButton}</Link>
           </h2>
           <ul className="hidden lg:flex">{this.displayNav}</ul>
