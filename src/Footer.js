@@ -6,7 +6,7 @@ const Footer = () => {
     <a
       href={item.url}
       key={item.name}
-      className="px-1"
+      className="h-12 w-12 flex justify-center items-center px-1"
       target="_blank"
       rel="noreferrer"
       aria-label={item.aria}
