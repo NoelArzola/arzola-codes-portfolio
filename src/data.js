@@ -188,7 +188,7 @@ export const services = [
     icon: <i className="fas fa-code" aria-hidden="true"></i>,
     name: "web development",
     description:
-      "If you're looking to have a site built, you're in the right place. I have worked on websites for everyone from indivdiual influencers and small businesses to large companies. This has included shops, payments, and so much more.",
+      "If you need a site built, you're in the right place. I have worked on websites for individuals, influencers, small businesses and large companies. These sites have included shops, payments, and so much more.",
   },
   {
     icon: <i className="fas fa-paint-brush" aria-hidden="true"></i>,
