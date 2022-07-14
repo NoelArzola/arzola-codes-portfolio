@@ -102,9 +102,25 @@ export const projectArray = [
 
 export const bio = {
   imageURL: "https://noelarzola.com/img/hello.png",
-  heading: "Full-Stack Developer, Short-Stack Devourer 🥞",
-  paragraph:
-    "Hi, I’m Noel Arzola, a freelancing Full-Stack Developer based in the Mid-Ohio Valley. I also work for Skillcrush as a Teaching Assistant where I help students learning HTML, CSS, JavaScript, WordPress, Python, and ReactJS on their journey to become Developers.\nWhen I’m not coding or adding to my dev skillset, I love spending time with my three kids, riding my motorcycle, lifting weights, running, and learning foreign languages!\nI can't wait to work with you!",
+  heading: "Just a short bio",
+  paragraph: (
+    <span>
+      I started as a back-end engineer in Python eleven years ago. I've since
+      added front-end to my skillset, and my career has really taken off as a
+      full-stack engineer. I currently work for Skillcrush as a Front End
+      Engineer.
+      <br />
+      <br />
+      <span className="font-bold">Hobbies:</span> Spending time with my three
+      kids, riding my motorcycle, lifting weights, running, and learning foreign
+      languages
+      <br />
+      <br />
+      <span className="font-bold">Fun Fact:</span> I've had the fortune of
+      interviewing with both Google and Amazon for Software Engineer positions.
+      😱
+    </span>
+  ),
 };
 
 export const contactInfo = {
@@ -172,29 +188,29 @@ export const services = [
     icon: <i className="fas fa-code" aria-hidden="true"></i>,
     name: "web development",
     description:
-      "I will code your site from the ground up. I specialize in both great-looking one-page and multi-page sites. Unsure which you need? A single site is great for a résumé or portfolio site while a business is generally better suited for a multi-page layout. I will make sure we make the best decision for the results you want and need.",
+      "If you're looking to have a site built, you're in the right place. I have worked on websites for everyone from indivdiual influencers and small businesses to large companies. This has included shops, payments, and so much more.",
   },
   {
     icon: <i className="fas fa-paint-brush" aria-hidden="true"></i>,
     name: "bring your design to life",
-    description: `It's alive! Already have a PSD from a designer? Great! Trust in me to take your PhotoShop* design and code it to a pixel-perfect match.\n(*or preferred app, I love em all equally)`,
+    description: `I love working with designers. I can work from designs in apps like Photoshop, XD, Figma, etc. Let's bring this design to life!`,
   },
   {
     icon: <i className="fas fa-mobile-alt" aria-hidden="true"></i>,
     name: "mobile-friendly sites",
     description:
-      "If you want your site to look great on the most used screen size - mobile (hint: you do) - you can count on me to make your site look awesome and responsive on any screen it's accessed on - whether phone, tablet, or desktop.",
+      "I work with a mobile first approach which ensures your site will look awesome on any screen it's accessed on - whether phone, tablet, or desktop.",
   },
   {
     icon: <i className="fab fa-wordpress-simple" aria-hidden="true"></i>,
     name: "wordpress",
     description:
-      "I will set you up with a simple WordPress site to fit your needs. If you need some tweaks and customizations, I've got you. For the fancy crowd who loves custom theming, custom pages, newsletter sign-ups, contact forms, social media hook-ups, and more - I'm your dev.",
+      "An elegant WordPress site to fit your needs. If you need some tweaks and customizations, I've got you. Includes: custom theming, custom pages, newsletter sign-ups, contact forms, social media hook-ups, and more upon request.",
   },
   {
     icon: <i className="far fa-calendar-alt" aria-hidden="true"></i>,
     name: "retainer",
     description:
-      "Having a site built is great, but what about keeping it running? I offer a monthly retainer package to take care of your website so you can have more time to focus on your company or advancing your career. This includes coding, tweaks, tech, and maintenance tasks.",
+      "Allow me to maintain your site so you can have more time to focus on your day to day and advancing your business. Includes: coding, tweaks, tech, bug fixing, and maintenance tasks.",
   },
 ];
