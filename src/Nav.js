@@ -75,7 +75,7 @@ class Nav extends React.Component {
           id="navigation"
           className={
             this.state.isToggled
-              ? "flex flex-col lg:hidden items-center h-screen border-almost-white border-t z-10 fixed bg-black w-full text-2xl pt-24"
+              ? "flex flex-col lg:hidden items-center justify-center h-screen border-almost-white border-t z-10 sticky bg-black w-full text-2xl"
               : "hidden"
           }
         >
