@@ -80,13 +80,15 @@ export const projectArray = [
   },
   {
     title: "Facebok Clone",
-    tools: "HTML, CSS, React Javascript, Next.js, Tailwind, Firebase",
+    tools:
+      "HTML, CSS, React Javascript, Next.js, Next Auth, Tailwind, Firebase",
     description:
-      "Features Facebook authentication for login/out, status updates, a real-time feed, and image uploading",
+      "Features Facebook authentication for login/out, status updates, a live real-time feed, and image uploading",
     comingSoon: true,
     imageURL: "",
-    imageALT: "A clone of the Hulu website",
-    codeURL: "https://github.com/NoelArzola/hulu-clone",
+    imageALT: "A clone of the Facebook website",
+    codeURL: "https://github.com/NoelArzola/facebook-clone",
+    liveURL: "https://calm-sawine-52f367.netlify.app/",
   },
   {
     title: "Amazon Clone",
