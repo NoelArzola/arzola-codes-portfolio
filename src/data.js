@@ -77,6 +77,7 @@ export const projectArray = [
     imageURL: "",
     imageALT: "A clone of the Netflix website",
     codeURL: "https://github.com/NoelArzola/netflix-clone",
+    liveURL: "https://netflix-152b6.web.app/",
   },
   {
     title: "Facebok Clone",
