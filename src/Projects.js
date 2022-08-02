@@ -24,7 +24,11 @@ const displayProjects = projectArray.map((project) => (
       </a>
     </div>
     <figure className={project.comingSoon ? "hidden mt-5 px-8" : "mt-5 px-8"}>
-      <img src={project.imageURL} alt={project.imageALT} />
+      <img
+        src={project.imageURL}
+        alt={project.imageALT}
+        className="border border-gray-200"
+      />
     </figure>
     <h3
       className={

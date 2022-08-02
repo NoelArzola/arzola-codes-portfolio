@@ -73,8 +73,8 @@ export const projectArray = [
     tools: "HTML, CSS, React Javascript, Redux, Firebase, Stripe",
     description:
       "Features user sign-ups, user login/out, payments, user profiles, and a full functional interface including 'My List'",
-    comingSoon: true,
-    imageURL: "",
+    comingSoon: false,
+    imageURL: "http://noelarzola.com/img/netflix-react.png",
     imageALT: "A clone of the Netflix website",
     codeURL: "https://github.com/NoelArzola/netflix-clone",
     liveURL: "https://netflix-152b6.web.app/",
@@ -85,8 +85,8 @@ export const projectArray = [
       "HTML, CSS, React Javascript, Next.js, Next Auth, Tailwind, Firebase",
     description:
       "Features Facebook authentication for login/out, status updates, a live real-time feed, and image uploading",
-    comingSoon: true,
-    imageURL: "",
+    comingSoon: false,
+    imageURL: "http://noelarzola.com/img/facebook-react.png",
     imageALT: "A clone of the Facebook website",
     codeURL: "https://github.com/NoelArzola/facebook-clone",
     liveURL: "https://calm-sawine-52f367.netlify.app/",
@@ -96,7 +96,7 @@ export const projectArray = [
     tools: "HTML, CSS, React Javascript, Firebase, Stripe",
     description:
       "Features user signups, user login/out, many products, and a fully functioning cart with checkout and payments",
-    imageURL: "https://noelarzola.com/img/amazon.png",
+    imageURL: "https://noelarzola.com/img/amazon-react.png",
     imageALT: "A clone of the Amazon website",
     liveURL: "https://clone-fac52.web.app/",
     codeURL: "https://github.com/NoelArzola/amazon-clone",
@@ -108,20 +108,15 @@ export const bio = {
   heading: "Just a short bio",
   paragraph: (
     <span>
-      I started as a back-end engineer in Python eleven years ago. I've since
-      added front-end to my skillset, and my career has really taken off as a
-      full-stack engineer. I currently work for Skillcrush as a Front End
-      Engineer.
+      I started as a back-end engineer learning Python the beginning of 2011.
+      I've since added front-end to my skillset, and my career has really taken
+      off as a full-stack engineer. I currently work for Skillcrush as a Front
+      End Engineer and freelance Full Stack.
       <br />
       <br />
       <span className="font-bold">Hobbies:</span> Spending time with my three
       kids, riding my motorcycle, lifting weights, running, and learning foreign
       languages
-      <br />
-      <br />
-      <span className="font-bold">Fun Fact:</span> I've had the fortune of
-      interviewing with both Google and Amazon for Software Engineer positions.
-      😱
     </span>
   ),
 };
