@@ -83,7 +83,7 @@ export const projectArray = [
   {
     title: "Facebok Clone",
     tools:
-      "Responsive HTML/CSS, React Javascript, Next.js, Next Authentication, Tailwind, Firebase Storage, Server Side Rendering",
+      "Responsive HTML/CSS, React Javascript, Next.js, Next Auth, Tailwind, Firebase Storage, Server Side Rendering, Dark Mode Toggle",
     description:
       "Features: Facebook authentication for login/out, status updates, a live real-time feed, and image uploading",
     comingSoon: false,
