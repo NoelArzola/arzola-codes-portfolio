@@ -125,8 +125,8 @@ export const contactInfo = {
   heading: "hire me",
   phoneNumber: <a href="tel:+17403158315">+1 740-315-8315</a>,
   email: (
-    <a href="mailto:noel@arzola.codes" target="_blank" rel="noreferrer">
-      noel@arzola.codes
+    <a href="mailto:noel@noelarzola.com" target="_blank" rel="noreferrer">
+      noel@noelarzola.com
     </a>
   ),
 };

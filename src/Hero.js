@@ -8,11 +8,9 @@ const Hero = () => {
       role="banner"
     >
       <div className="max-w-2xl mx-auto">
-        <h1 className="font-jetbrains text-3xl lg:text-5xl">
-          Welcome to arzola.codes!
-        </h1>
+        <h1 className="font-jetbrains text-3xl lg:text-5xl">Hey, I'm Noel</h1>
         <p className="text-2xl lg:text-3xl mt-5">
-          I'm Noel, a full-stack software engineer
+          I am a full-stack software engineer. I build websites and web apps
         </p>
         <div className="mt-4 flex justify-center">
           <Link
