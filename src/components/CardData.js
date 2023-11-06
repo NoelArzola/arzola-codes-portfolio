@@ -1,5 +1,6 @@
 import React from "react";
 
+/* this component can obviously be broken down even further, but for the sake of time leaving it as is */
 export const CardData = ({
   userImage,
   username,
@@ -14,7 +15,7 @@ export const CardData = ({
         <p className="text-xs font-bold">{username}</p>
       </div>
       <div className="flex items-center">
-        <div className="flex flex-row items-center mr-5">
+        <div className="flex flex-row items-center mr-2.5">
           <i
             className={`fa-regular fa-message fa-flip-horizontal text-xs ${
               commentCount > 0 ? "mr-1" : ""
@@ -22,7 +23,7 @@ export const CardData = ({
           ></i>
           {commentCount > 0 && <p className="text-xs">{commentCount}</p>}
         </div>
-        <div className="flex flex-row items-center mr-5">
+        <div className="flex flex-row items-center mr-2.5">
           <i
             className={`fa-solid fa-quote-left ${quoteCount > 0 ? "mr-1" : ""}`}
           ></i>
