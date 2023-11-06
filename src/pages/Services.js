@@ -1,7 +1,7 @@
 import React from "react";
-import { services } from "./data";
+import { services } from "../data/data";
 
-const Services = () => {
+export const Services = () => {
   const displayServices = (servicesArray) => {
     return servicesArray.map((service) => (
       <div className="bg-almost-white px-4 py-24 md:w-[49%]" key={service.name}>
@@ -24,5 +24,3 @@ const Services = () => {
     </main>
   );
 };
-
-export default Services;

@@ -1,5 +1,5 @@
 import React from "react";
-import { contactInfo, followMe, meetMe } from "./data";
+import { contactInfo, followMe, meetMe } from "../data/data";
 
 const Footer = () => {
   const displaySocial = followMe.map((item) => (
