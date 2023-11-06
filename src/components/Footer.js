@@ -1,7 +1,12 @@
 import React from "react";
+import { useMatch } from "react-router-dom";
 import { contactInfo, followMe, meetMe } from "../data/data";
 
 const Footer = () => {
+  const match = useMatch("/spill");
+
+  if (match) return;
+
   const displaySocial = followMe.map((item) => (
     <a
       href={item.url}

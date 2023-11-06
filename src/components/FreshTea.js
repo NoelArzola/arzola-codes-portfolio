@@ -3,7 +3,7 @@ import { spillDB as myBrew } from "../data/spillDB";
 import { Card } from "../components/Card";
 
 export const FreshTea = ({ isActive, onClick }) => {
-  const sippin = myBrew.filter((post) => post.following);
+  const sippin = myBrew.filter((post) => !post.following);
 
   const displayTeaL = sippin.map((post) => (
     <Card
@@ -29,7 +29,11 @@ export const FreshTea = ({ isActive, onClick }) => {
       className={`text-white font-semibold w-full`}
       onClick={onClick}
     >
-      <ul className={`${isActive ? "block" : "hidden"} w-full`}>
+      <ul
+        className={`${
+          isActive ? "block" : "hidden"
+        } w-full flex flex-col flex-col-reverse`}
+      >
         {displayTeaL}
       </ul>
     </section>
