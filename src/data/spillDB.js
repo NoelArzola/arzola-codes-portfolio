@@ -1,14 +1,17 @@
+import pfp from "../images/user01.jpg";
+
 export const spillDB = [
   {
     postID: 1,
     username: "arzolacodes",
-    userImage: "url",
-    commentCount: 0,
-    quoteCount: 0,
-    likes: 0,
+    userImage: pfp,
+    commentCount: 10,
+    quoteCount: 10,
+    likeCount: 10,
     postText: "wuttup doe",
-    postImage: "url",
-    postLink: "",
+    postImage: "",
+    postLink: "https://arzola.codes",
+    prettyLink: "site",
     createDate: "",
     following: true,
   },
