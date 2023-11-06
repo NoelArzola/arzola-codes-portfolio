@@ -1,5 +1,5 @@
 import React from "react";
-import { bio } from "./data";
+import { bio } from "../data/data";
 
 const Bio = () => {
   return (

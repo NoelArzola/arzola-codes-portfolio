@@ -1,5 +1,5 @@
 import React from "react";
-import { toolsArray } from "./data";
+import { toolsArray } from "../data/data";
 
 const Tools = () => {
   const displayTools = toolsArray.map((tool, index) => (

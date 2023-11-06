@@ -1,5 +1,5 @@
 import React from "react";
-import { projectArray } from "./data";
+import { projectArray } from "../data/data";
 
 const displayProjects = projectArray.map((project) => (
   <li

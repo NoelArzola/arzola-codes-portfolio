@@ -1,5 +1,5 @@
 import React from "react";
-import { navItems } from "./data";
+import { navItems } from "../data/data";
 import { HashLink as Link } from "react-router-hash-link";
 
 class Nav extends React.Component {
