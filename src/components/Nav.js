@@ -1,9 +1,14 @@
 import React, { useState } from "react";
+import { useMatch } from "react-router-dom";
 import { navItems } from "../data/data";
 import { HashLink as Link } from "react-router-hash-link";
 
 function Nav() {
   const [isToggled, setIsToggled] = useState(false);
+
+  const match = useMatch("/spill");
+
+  if (match) return;
 
   const homeButton = "@arzolacodes";
 
