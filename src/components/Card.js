@@ -13,14 +13,16 @@ export const Card = ({
   postImage,
   postLink,
   prettyLink,
+  backgroundPosition,
 }) => {
   return (
     <li post={postID} className="mb-8">
       <CardContent
         postImage={postImage}
         postText={postText}
-        postLink={postText}
+        postLink={postLink}
         prettyLink={prettyLink}
+        backgroundPosition={backgroundPosition}
       />
       <CardData
         userImage={userImage}
