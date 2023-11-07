@@ -8,7 +8,7 @@ export const TeaL = () => {
 
   return (
     <section id="teaL" className="text-white font-semibold pt-16">
-      <div className="flex">
+      <div className="flex mx-4">
         <div
           onClick={() => setActiveIndex(0)}
           className={`mb-8 py-4 text-center w-full ${
@@ -28,7 +28,7 @@ export const TeaL = () => {
           </h2>
         </div>
       </div>
-      <div className="mx-4 posts-container overflow-scroll">
+      <div className="mx-4 posts-container overflow-scroll lg:overflow-auto">
         <MyBrew isActive={activeIndex === 0} />
         <FreshTea isActive={activeIndex === 1} />
       </div>

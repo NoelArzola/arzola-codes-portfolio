@@ -29,7 +29,9 @@ export const CardContent = ({
         {postLink && (
           <p className="mt-4 flex items-center text-xs font-normal h-4">
             <i className="fa-solid fa-link mr-2"></i>
-            <a href={postLink}>{prettyLink}</a>
+            <a href={postLink} target="_blank">
+              {prettyLink}
+            </a>
           </p>
         )}
       </div>

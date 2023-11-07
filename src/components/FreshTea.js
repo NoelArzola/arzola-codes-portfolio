@@ -33,7 +33,7 @@ export const FreshTea = ({ isActive, onClick }) => {
       <ul
         className={`${
           isActive ? "block" : "hidden"
-        } w-full flex flex-col-reverse`}
+        } w-full flex flex-col-reverse md:flex-row-reverse md:flex-wrap gap-4`}
       >
         {displayTeaL}
       </ul>

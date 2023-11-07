@@ -33,7 +33,7 @@ export const MyBrew = ({ isActive, onClick }) => {
       <ul
         className={`${
           isActive ? "block" : "hidden"
-        } w-full flex flex-col-reverse`}
+        } w-full flex flex-col-reverse md:flex-row-reverse md:flex-wrap-reverse lg:justify-center gap-x-4`}
       >
         {displayTeaL}
       </ul>

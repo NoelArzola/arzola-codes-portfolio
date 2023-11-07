@@ -16,7 +16,7 @@ export const Card = ({
   backgroundPosition,
 }) => {
   return (
-    <li post={postID} className="mb-8">
+    <li post={postID} className="mb-8 md:w-[48%] lg:w-[32%]">
       <CardContent
         postImage={postImage}
         postText={postText}
