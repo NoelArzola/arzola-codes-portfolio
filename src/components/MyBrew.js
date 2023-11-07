@@ -20,19 +20,20 @@ export const MyBrew = ({ isActive, onClick }) => {
       prettyLink={post.prettyLink}
       createDate={post.createDate}
       following={post.following}
+      backgroundPosition={post.backgroundPosition}
     />
   ));
 
   return (
     <section
       id="myBrew"
-      className={` text-white font-semibold w-full`}
+      className={`text-white font-semibold w-full`}
       onClick={onClick}
     >
       <ul
         className={`${
           isActive ? "block" : "hidden"
-        } w-full flex flex-col flex-col-reverse`}
+        } w-full flex flex-col-reverse`}
       >
         {displayTeaL}
       </ul>
