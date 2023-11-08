@@ -8,17 +8,10 @@ export const TeaL = ({ tappedLogo, resetTappedLogo }) => {
   const ref = useRef(null);
 
   if (tappedLogo) {
-    const yCoord1 = window.scrollY;
-    const yCoord2 = window.scrollY;
-    const yCoord3 = window.scrollY;
-    const ycoord4 = window.scrollY;
-    if (((!yCoord1 === yCoord2) === yCoord3) === ycoord4) {
-      return;
-    }
     ref.current.scrollTop = 0;
     setTimeout(() => {
       resetTappedLogo();
-    }, 1000);
+    }, 500);
   }
 
   return (
