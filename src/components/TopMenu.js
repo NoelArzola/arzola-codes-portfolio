@@ -1,4 +1,4 @@
-import React from "react";
+import { React } from "react";
 
 export const TopMenu = () => {
   return (
@@ -7,7 +7,7 @@ export const TopMenu = () => {
         <svg
           viewBox="0 0 88 24"
           xmlns="http://www.w3.org/2000/svg"
-          className="h-4"
+          className="h-5 cursor-pointer"
           data-v-27a487fa=""
         >
           <g clipPath="url(#a)" fill="#fff">
