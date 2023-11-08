@@ -15,6 +15,7 @@ export const Compose = () => {
           value={
             message === 1 ? "um hi 👀 I didn't build this out, sorry lol" : ""
           }
+          readOnly
         />
       </form>
     </div>

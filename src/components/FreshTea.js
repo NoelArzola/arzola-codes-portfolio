@@ -21,6 +21,8 @@ export const FreshTea = ({ isActive, onClick }) => {
       createDate={post.createDate}
       following={post.following}
       backgroundPosition={post.backgroundPosition}
+      mention={post.mention}
+      userMentioned={post.userMentioned}
     />
   ));
 
