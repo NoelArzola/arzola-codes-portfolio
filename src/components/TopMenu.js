@@ -3,7 +3,7 @@ import { React } from "react";
 export const TopMenu = () => {
   return (
     <header>
-      <nav className=" bg-[#0e7b10] pt-7 pb-6 rounded-bl-3xl rounded-br-3xl lg:rounded-none fixed w-full flex justify-center lg:justify-start lg:pl-10 z-10">
+      <nav className=" bg-[#0e7b10] pt-7 pb-6 rounded-bl-[2rem] rounded-br-[2rem] lg:rounded-none fixed w-full flex justify-center lg:justify-start lg:pl-10 z-10">
         <svg
           viewBox="0 0 88 24"
           xmlns="http://www.w3.org/2000/svg"
