@@ -114,7 +114,8 @@ export const bio = {
       I've since added front-end to my skillset, and my career has really taken
       off as a Full-Stack Engineer. In addition to my personal business I have
       also worked for Skillcrush as both a Front End Engineer and a Full-Stack
-      Engineer.
+      Engineer. I'm on the hunt for my next great role and would love to talk to
+      you if you think I'd be a good fit!
       <br />
       <br />
       <span className="font-bold">Hobbies:</span> Spending time with my three
