@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 .posts-container {
   height: calc(100vh - 176px);
   height: calc(100dvh - 176px);
