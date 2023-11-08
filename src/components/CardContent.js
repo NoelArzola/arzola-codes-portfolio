@@ -1,4 +1,4 @@
-import React, { createElement, useRef } from "react";
+import React, { useRef } from "react";
 
 export const CardContent = ({
   postImage,
