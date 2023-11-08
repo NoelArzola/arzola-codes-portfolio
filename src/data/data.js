@@ -70,9 +70,10 @@ export const toolsArray = [
 export const projectArray = [
   {
     title: "Netflix Clone",
-    tools: "HTML, CSS, React Javascript, Redux, Firebase, Stripe",
+    tools:
+      "Responsive HTML/CSS, React Javascript, Redux, Firestore Database, Firebase Authentication, Stripe Checkout, TMDB API",
     description:
-      "Features user sign-ups, user login/out, payments, user profiles, and a full functional interface including 'My List'",
+      "Features: User sign-ups, user login/out, payments, user profiles, and a fully functional interface including 'My Profile",
     comingSoon: false,
     imageURL: "http://noelarzola.com/img/netflix-react.png",
     imageALT: "A clone of the Netflix website",
@@ -82,9 +83,9 @@ export const projectArray = [
   {
     title: "Facebok Clone",
     tools:
-      "HTML, CSS, React Javascript, Next.js, Next Auth, Tailwind, Firebase",
+      "Responsive HTML/CSS, React Javascript, Next.js, Next Auth, Tailwind, Firebase Storage, Server Side Rendering, Dark Mode Toggle",
     description:
-      "Features Facebook authentication for login/out, status updates, a live real-time feed, and image uploading",
+      "Features: Facebook authentication for login/out, status updates, a live real-time feed, and image uploading",
     comingSoon: false,
     imageURL: "http://noelarzola.com/img/facebook-react.png",
     imageALT: "A clone of the Facebook website",
@@ -93,9 +94,10 @@ export const projectArray = [
   },
   {
     title: "Amazon Clone",
-    tools: "HTML, CSS, React Javascript, Firebase, Stripe",
+    tools:
+      "Responsive HTML/CSS, React Javascript, Firebase Database, Firebase Authentication, Stripe for checkout experience",
     description:
-      "Features user signups, user login/out, many products, and a fully functioning cart with checkout and payments",
+      "Features: User signups, user login/out, many products, and a fully functioning cart with checkout and payments",
     imageURL: "https://noelarzola.com/img/amazon-react.png",
     imageALT: "A clone of the Amazon website",
     liveURL: "https://clone-fac52.web.app/",
