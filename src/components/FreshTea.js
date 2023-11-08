@@ -2,7 +2,7 @@ import React from "react";
 import { spillDB as myBrew } from "../data/spillDB";
 import { Card } from "../components/Card";
 
-export const FreshTea = ({ isActive, onClick }) => {
+export const FreshTea = ({ isActive }) => {
   const sippin = myBrew;
 
   const displayTeaL = sippin.map((post) => (
