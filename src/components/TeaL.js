@@ -7,7 +7,7 @@ export const TeaL = () => {
   const [activeIndex, setActiveIndex] = useState(1);
 
   return (
-    <section id="teaL" className="text-white font-semibold pt-16">
+    <section id="teaL" className="text-white font-semibold pt-[4.5rem]">
       <div className="mx-4 posts-container overflow-scroll lg:overflow-auto">
         <div className="flex mx-4">
           <div
