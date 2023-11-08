@@ -110,20 +110,21 @@ export const bio = {
     <span>
       I started as a back-end engineer learning Python the beginning of 2011.
       I've since added front-end to my skillset, and my career has really taken
-      off as a full-stack engineer. I currently work for Skillcrush as a Front
-      End Engineer and freelance Full Stack.
+      off as a Full-Stack Engineer. In addition to my personal business I have
+      also worked for Skillcrush as both a Front End Engineer and a Full-Stack
+      Engineer.
       <br />
       <br />
       <span className="font-bold">Hobbies:</span> Spending time with my three
       kids, riding my motorcycle, lifting weights, running, and learning foreign
-      languages
+      languages.
     </span>
   ),
 };
 
 export const contactInfo = {
   heading: "hire me",
-  phoneNumber: <a href="tel:+17403158315">+1 740-315-8315</a>,
+  phoneNumber: <a href="tel:+17403158315">+1.740.315.8315</a>,
   email: (
     <a href="mailto:noel@noelarzola.com" target="_blank" rel="noreferrer">
       noel@noelarzola.com
