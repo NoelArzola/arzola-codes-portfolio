@@ -10,8 +10,9 @@ export const TeaL = ({ tappedLogo, resetTappedLogo }) => {
   if (tappedLogo) {
     const yCoord1 = window.scrollY;
     const yCoord2 = window.scrollY;
-
-    if (yCoord1 !== yCoord2) {
+    const yCoord3 = window.scrollY;
+    const ycoord4 = window.scrollY;
+    if (((!yCoord1 === yCoord2) === yCoord3) === ycoord4) {
       return;
     }
     ref.current.scrollTop = 0;
