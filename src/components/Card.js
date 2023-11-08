@@ -14,6 +14,8 @@ export const Card = ({
   postLink,
   prettyLink,
   backgroundPosition,
+  mention,
+  userMentioned,
 }) => {
   return (
     <li post={postID} className="mb-8 md:w-[48%] lg:w-[32%]">
@@ -23,6 +25,8 @@ export const Card = ({
         postLink={postLink}
         prettyLink={prettyLink}
         backgroundPosition={backgroundPosition}
+        mention={mention}
+        userMentioned={userMentioned}
       />
       <CardData
         userImage={userImage}
