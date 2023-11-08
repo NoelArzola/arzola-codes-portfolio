@@ -5,7 +5,7 @@ export const Compose = () => {
   const [message, setMessage] = useState(0);
 
   return (
-    <div className="flex bg-[#0425cf] px-4 pt-5 pb-14 rounded-tl-[2rem] rounded-tr-[2rem] lg:rounded-none w-full lg:justify-center items-center">
+    <div className="flex bg-[#0425cf] px-4 pt-4 pb-10 rounded-tl-[2rem] rounded-tr-[2rem] lg:rounded-none w-full lg:justify-center items-center">
       <img src={spillImage} alt="" className="rounded-full h-12 w-12 mr-1.5" />
       <form action="" className="w-full lg:w-1/2">
         <input

@@ -1,6 +1,6 @@
 .posts-container {
-  height: calc(100vh - 222px);
-  height: calc(100dvh - 222px);
+  height: calc(100vh - 176px);
+  height: calc(100dvh - 176px);
 }
 
 .right {

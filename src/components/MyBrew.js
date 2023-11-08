@@ -29,13 +29,13 @@ export const MyBrew = ({ isActive, onClick }) => {
   return (
     <section
       id="myBrew"
-      className={`text-white font-semibold w-full`}
+      className={`text-white font-semibold w-full  max-w-7xl mx-auto`}
       onClick={onClick}
     >
       <ul
         className={`${
           isActive ? "block" : "hidden"
-        } w-full flex flex-col-reverse md:flex-row-reverse md:flex-wrap-reverse lg:justify-center gap-x-4`}
+        } w-full flex flex-col-reverse md:flex-row-reverse md:flex-wrap-reverse lg:justify-center xl:justify-end gap-x-4`}
       >
         {displayTeaL}
       </ul>

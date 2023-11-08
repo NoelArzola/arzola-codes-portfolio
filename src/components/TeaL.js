@@ -9,10 +9,10 @@ export const TeaL = () => {
   return (
     <section id="teaL" className="text-white font-semibold pt-[4.5rem]">
       <div className="mx-4 posts-container overflow-scroll lg:overflow-auto">
-        <div className="flex mx-4">
+        <div className="flex mx-4 max-w-7xl lg:mx-auto">
           <div
             onClick={() => setActiveIndex(0)}
-            className={`py-3 text-center w-full`}
+            className={`py-3 text-center w-full cursor-pointer`}
           >
             <h2 className={activeIndex !== 0 ? "text-gray-400" : ""}>
               My Brew
@@ -20,14 +20,14 @@ export const TeaL = () => {
           </div>
           <div
             onClick={() => setActiveIndex(1)}
-            className={`py-3 text-center w-full`}
+            className={`py-3 text-center w-full cursor-pointer`}
           >
             <h2 className={activeIndex !== 1 ? "text-gray-400" : ""}>
               Fresh Tea
             </h2>
           </div>
         </div>
-        <div className="grid">
+        <div className="grid max-w-7xl mx-auto">
           <div
             className={`h-0.5 w-1/2 mb-8 bg-white ${
               activeIndex === 0 ? "left" : "right"
