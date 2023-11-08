@@ -1,3 +1,62 @@
+html {
+  scroll-behavior: smooth;
+}
+
 .posts-container {
-  height: calc(100vh - 238px);
+  height: calc(100vh - 176px);
+  height: calc(100dvh - 176px);
+}
+
+.right {
+  justify-self: end;
+  animation: slide-right 100ms ease;
+}
+
+.left {
+  justify-self: start;
+  animation: slide-left 100ms ease;
+}
+
+@keyframes slide-right {
+  0% {
+    justify-self: start;
+  }
+
+  25% {
+    justify-self: center;
+  }
+
+  50% {
+    justify-self: center;
+  }
+
+  75% {
+    justify-self: center;
+  }
+
+  100% {
+    justify-self: end;
+  }
+}
+
+@keyframes slide-left {
+  0% {
+    justify-self: end;
+  }
+
+  25% {
+    justify-self: center;
+  }
+
+  50% {
+    justify-self: center;
+  }
+
+  75% {
+    justify-self: center;
+  }
+
+  100% {
+    justify-self: start;
+  }
 }

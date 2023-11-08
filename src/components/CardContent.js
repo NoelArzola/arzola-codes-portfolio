@@ -41,7 +41,7 @@ export const CardContent = ({
       }
     >
       <div className="self-end">
-        <p className="text-2xl" ref={refEl}>
+        <p className="text-3xl" ref={refEl}>
           {mention && userMentioned ? updatePostContent() : postText}
         </p>
         {postLink && (

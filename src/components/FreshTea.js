@@ -2,7 +2,7 @@ import React from "react";
 import { spillDB as myBrew } from "../data/spillDB";
 import { Card } from "../components/Card";
 
-export const FreshTea = ({ isActive, onClick }) => {
+export const FreshTea = ({ isActive }) => {
   const sippin = myBrew;
 
   const displayTeaL = sippin.map((post) => (
@@ -29,8 +29,7 @@ export const FreshTea = ({ isActive, onClick }) => {
   return (
     <section
       id="freshTea"
-      className={`text-white font-semibold w-full`}
-      onClick={onClick}
+      className="text-white font-semibold w-full max-w-7xl mx-auto"
     >
       <ul
         className={`${

@@ -4,7 +4,7 @@ import { CardData } from "./CardData";
 
 export const Card = (props) => {
   return (
-    <li post={props.postID} className="mb-8 md:w-[48%] lg:w-[32%]">
+    <li className="mb-8 md:w-[48%] lg:w-[32%]">
       <CardContent {...props} />
       <CardData {...props} />
     </li>
