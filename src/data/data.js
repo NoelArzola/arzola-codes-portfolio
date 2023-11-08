@@ -73,7 +73,7 @@ export const projectArray = [
     tools:
       "Responsive HTML/CSS, React Javascript, Redux, Firestore Database, Firebase Authentication, Stripe Checkout, TMDB API",
     description:
-      "Features: User sign-ups, user login/out, payments, user profiles, and a fully functional interface including 'My Profile",
+      "Features: User sign-ups, user login/out, payments, user profiles, and a fully functional interface including 'My Profile'",
     comingSoon: false,
     imageURL: "http://noelarzola.com/img/netflix-react.png",
     imageALT: "A clone of the Netflix website",
