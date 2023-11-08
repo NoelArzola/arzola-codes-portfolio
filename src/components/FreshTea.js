@@ -29,8 +29,7 @@ export const FreshTea = ({ isActive, onClick }) => {
   return (
     <section
       id="freshTea"
-      className={`text-white font-semibold w-full max-w-7xl mx-auto`}
-      onClick={onClick}
+      className="text-white font-semibold w-full max-w-7xl mx-auto"
     >
       <ul
         className={`${

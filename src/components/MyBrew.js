@@ -29,8 +29,7 @@ export const MyBrew = ({ isActive, onClick }) => {
   return (
     <section
       id="myBrew"
-      className={`text-white font-semibold w-full  max-w-7xl mx-auto`}
-      onClick={onClick}
+      className="text-white font-semibold w-full  max-w-7xl mx-auto"
     >
       <ul
         className={`${
