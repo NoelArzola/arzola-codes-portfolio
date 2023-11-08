@@ -1,14 +1,25 @@
-import React, { useState } from "react";
+import React, { useRef, useState } from "react";
 import { MyBrew } from "./MyBrew";
 import { FreshTea } from "./FreshTea";
 import { Compose } from "./Compose";
 
-export const TeaL = () => {
+export const TeaL = ({ tappedLogo, resetTappedLogo }) => {
   const [activeIndex, setActiveIndex] = useState(1);
+  const ref = useRef(null);
+
+  if (tappedLogo) {
+    ref.current.scrollTop = 0;
+    setTimeout(() => {
+      resetTappedLogo();
+    }, 1000);
+  }
 
   return (
     <section id="teaL" className="text-white font-semibold pt-[4.5rem]">
-      <div className="mx-4 posts-container overflow-scroll lg:overflow-auto">
+      <div
+        className="mx-4 posts-container overflow-scroll lg:overflow-auto"
+        ref={ref}
+      >
         <div className="flex mx-4 max-w-7xl lg:mx-auto">
           <div
             onClick={() => setActiveIndex(0)}
