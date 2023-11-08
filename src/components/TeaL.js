@@ -10,6 +10,7 @@ export const TeaL = ({ tappedLogo, resetTappedLogo }) => {
   if (tappedLogo) {
     ref.current.focus();
     ref.current.scrollTop = 0;
+    ref.current.focus();
     setTimeout(() => {
       resetTappedLogo();
     }, 500);
