@@ -8,6 +8,12 @@ export const TeaL = ({ tappedLogo, resetTappedLogo }) => {
   const ref = useRef(null);
 
   if (tappedLogo) {
+    const yCoord1 = window.scrollY;
+    const yCoord2 = window.scrollY;
+
+    if (yCoord1 !== yCoord2) {
+      return;
+    }
     ref.current.scrollTop = 0;
     setTimeout(() => {
       resetTappedLogo();
