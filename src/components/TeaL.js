@@ -8,6 +8,11 @@ export const TeaL = ({ tappedLogo, resetTappedLogo }) => {
   const ref = useRef(null);
 
   if (tappedLogo) {
+    /* 
+    okay this below fixes the black teaL bug, 
+    do NOT use scrollTop because the scroll behavior 
+    is not respected and causes janky shit to happen
+    */
     ref.current.scrollTo({ top: 0, left: 0, behavior: "smooth" });
     ref.current.focus();
     setTimeout(() => {
