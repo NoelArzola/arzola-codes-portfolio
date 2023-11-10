@@ -50,7 +50,7 @@ const Footer = () => {
         </div>
         <h4 className="text-center border-gray-for-sure border-t mt-8 pt-4 pb-0.5">
           Built with React <i className="fab fa-react" aria-hidden="true"></i>
-          <span className="hidden">Javascript!</span> | Copyright{" "}
+          <span className="hidden">JavaScript!</span> | Copyright{" "}
           {new Date().getFullYear()} | Arzola Solutions, LLC
         </h4>
       </div>

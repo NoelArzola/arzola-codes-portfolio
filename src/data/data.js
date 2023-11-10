@@ -30,7 +30,7 @@ export const toolsArray = [
     icon: <i className="fab fa-css3" aria-hidden="true"></i>,
   },
   {
-    name: "Javascript",
+    name: "JavaScript",
     icon: <i className="fab fa-js" aria-hidden="true"></i>,
   },
   {
@@ -69,9 +69,21 @@ export const toolsArray = [
 
 export const projectArray = [
   {
+    title: "Social Media App",
+    tools: "Responsive HTML/CSS, React JavaScript",
+    description:
+      "Features: Clone of the awesome social media app Spill! Features two timelines, My Brew and Fresh Tea. Made to get their attention, WIP.",
+    comingSoon: false,
+    imageURL: "http://noelarzola.com/img/spill.png",
+    imageALT: "A clone of the social media app Spill",
+    codeURL:
+      "https://github.com/NoelArzola/arzola-codes-portfolio/blob/main/src/pages/Spill.js",
+    liveURL: "https://arzola.codes/spill",
+  },
+  {
     title: "Netflix Clone",
     tools:
-      "Responsive HTML/CSS, React Javascript, Redux, Firestore Database, Firebase Authentication, Stripe Checkout, TMDB API",
+      "Responsive HTML/CSS, React JavaScript, Redux, Firestore Database, Firebase Authentication, Stripe Checkout, TMDB API",
     description:
       "Features: User sign-ups, user login/out, payments, user profiles, and a fully functional interface including 'My Profile'",
     comingSoon: false,
@@ -83,7 +95,7 @@ export const projectArray = [
   {
     title: "Facebok Clone",
     tools:
-      "Responsive HTML/CSS, React Javascript, Next.js, Next Auth, Tailwind, Firebase Storage, Server Side Rendering, Dark Mode Toggle",
+      "Responsive HTML/CSS, React JavaScript, Next.js, Next Auth, Tailwind, Firebase Storage, Server Side Rendering, Dark Mode Toggle",
     description:
       "Features: Facebook authentication for login/out, status updates, a live real-time feed, and image uploading",
     comingSoon: false,

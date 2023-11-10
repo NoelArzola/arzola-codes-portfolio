@@ -4,11 +4,13 @@ import { projectArray } from "../data/data";
 const displayProjects = projectArray.map((project) => (
   <li
     key={project.title}
-    className="w-full md:w-2/3 lg:w-[33%] bg-almost-white mx-auto mb-5 lg:mb-0 pb-4"
+    className="w-full md:w-2/3 bg-almost-white mx-auto mb-5 lg:mb-0 pb-4 lg:max-w-[423px]"
   >
     <h3 className="font-bold text-2xl text-center mt-5">{project.title}</h3>
     <p className="text-base mt-5 px-8">{project.description}</p>
-    <p className="text-base mt-5 px-8">Tools: {project.tools}</p>
+    <p className="text-base mt-5 px-8 lg:min-h-[76px]">
+      Tools: {project.tools}
+    </p>
     <div className="flex justify-center mt-5">
       <a
         href={project.liveURL}
@@ -48,7 +50,7 @@ const Projects = () => {
       <h2 className="font-jetbrains text-3xl lg:text-4xl text-center">
         my projects
       </h2>
-      <ul className="flex flex-col lg:flex-row justify-between mt-12">
+      <ul className="flex flex-col lg:flex-row lg:flex-wrap gap-y-2 justify-between mt-12">
         {displayProjects}
       </ul>
     </section>
