@@ -1,6 +1,6 @@
 import { React, useState } from "react";
-import { TopMenu as Nav } from "../components/TopMenu";
-import { TeaL } from "../components/TeaL";
+import { TopMenu as Nav } from "../components/Spill/TopMenu";
+import { TeaL } from "../components/Spill/TeaL";
 
 export const Spill = () => {
   const [tappedLogo, setTappedLogo] = useState(false);

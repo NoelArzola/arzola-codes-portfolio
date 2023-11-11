@@ -1,9 +1,9 @@
 import React from "react";
-import { spillDB as myBrew } from "../data/spillDB";
-import { Card } from "../components/Card";
+import { spillDB as myBrew } from "../../data/spillDB";
+import { Card } from "./Card";
 
-export const MyBrew = ({ isActive }) => {
-  const sippin = myBrew.filter((post) => post.following);
+export const FreshTea = ({ isActive }) => {
+  const sippin = myBrew;
 
   const displayTeaL = sippin.map((post) => (
     <Card
@@ -28,13 +28,13 @@ export const MyBrew = ({ isActive }) => {
 
   return (
     <section
-      id="myBrew"
-      className="text-white font-semibold w-full  max-w-7xl mx-auto"
+      id="freshTea"
+      className="text-white font-semibold w-full max-w-7xl mx-auto"
     >
       <ul
         className={`${
           isActive ? "block" : "hidden"
-        } w-full flex flex-col-reverse md:flex-row-reverse md:flex-wrap-reverse lg:justify-center xl:justify-end gap-x-4`}
+        } w-full flex flex-col-reverse md:flex-row-reverse md:flex-wrap gap-4`}
       >
         {displayTeaL}
       </ul>
