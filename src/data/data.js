@@ -38,6 +38,10 @@ export const toolsArray = [
     icon: <i className="fab fa-react" aria-hidden="true"></i>,
   },
   {
+    name: "Angular",
+    icon: <i className="fab fa-angular" aria-hidden="true"></i>,
+  },
+  {
     name: "Python",
     icon: <i className="fab fa-python" aria-hidden="true"></i>,
   },
