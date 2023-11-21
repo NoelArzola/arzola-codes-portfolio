@@ -1,4 +1,4 @@
-import { React, useState } from "react";
+import React, { useState } from "react";
 import { TopMenu as Nav } from "../components/Spill/TopMenu";
 import { TeaL } from "../components/Spill/TeaL";
 

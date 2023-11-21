@@ -8,6 +8,14 @@ export const CardContent = ({
   backgroundPosition,
   mention,
   userMentioned,
+}: {
+  postImage: string | null;
+  postText: string;
+  postLink: string;
+  prettyLink: string;
+  backgroundPosition?: string;
+  mention?: boolean | null;
+  userMentioned?: any;
 }) => {
   const refEl = useRef(null);
 

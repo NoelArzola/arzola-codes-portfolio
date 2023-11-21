@@ -17,7 +17,7 @@ const Hero = () => {
             to="/services"
             className="text-xl lg:text-3xl text-link-blue hover:underline icon-chevronright"
           >
-            View services
+            View services{" "}
             <i className="pl-2 text-xl fa-solid fa-chevron-right"></i>
           </Link>
           <Link
@@ -27,7 +27,8 @@ const Hero = () => {
             }}
             className="text-xl lg:text-3xl text-link-blue hover:underline icon-chevronright ml-9"
           >
-            Contact me<i className="pl-2 text-xl fa-solid fa-chevron-right"></i>
+            Contact me{" "}
+            <i className="pl-2 text-xl fa-solid fa-chevron-right"></i>
           </Link>
         </div>
       </div>
