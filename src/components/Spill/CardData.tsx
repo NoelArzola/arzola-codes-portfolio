@@ -7,6 +7,12 @@ export const CardData = ({
   commentCount,
   quoteCount,
   likeCount,
+}: {
+  userImage: string;
+  username: string;
+  commentCount: number;
+  quoteCount: number;
+  likeCount: number;
 }) => {
   return (
     <div className="flex flex-row justify-between font-normal mt-2">

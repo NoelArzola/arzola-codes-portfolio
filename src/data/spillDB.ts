@@ -1,6 +1,23 @@
 import pfp from "../images/user01.jpg";
 
-export const spillDB = [
+interface IPost {
+  postID: number;
+  username: string;
+  userImage: string;
+  commentCount: number;
+  quoteCount: number;
+  likeCount: number;
+  postText: string;
+  postImage?: string;
+  postLink: string;
+  prettyLink: string;
+  following: boolean;
+  mention?: boolean;
+  userMentioned?: string;
+  backgroundPosition?: string;
+}
+
+export const spillDB: IPost[] = [
   {
     postID: 0,
     username: "arzolacodes",

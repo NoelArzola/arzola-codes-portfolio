@@ -3,11 +3,17 @@ import { MyBrew } from "./MyBrew";
 import { FreshTea } from "./FreshTea";
 import { Compose } from "./Compose";
 
-export const TeaL = ({ tappedLogo, resetTappedLogo }) => {
+export const TeaL = ({
+  tappedLogo,
+  resetTappedLogo,
+}: {
+  tappedLogo: any;
+  resetTappedLogo: any;
+}) => {
   const [activeIndex, setActiveIndex] = useState(1);
-  const ref = useRef(null);
+  const ref: any = useRef(null);
 
-  if (tappedLogo) {
+  if (tappedLogo && ref.current != null) {
     /* 
     okay this below fixes the black teaL bug, 
     do NOT use scrollTop because the scroll behavior 
