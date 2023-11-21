@@ -1,5 +1,5 @@
-import { React, useState } from "react";
-import spillImage from "../images/user02.jpg";
+import React, { useState } from "react";
+import spillImage from "../../images/user02.jpg";
 
 export const Compose = () => {
   const [message, setMessage] = useState(0);

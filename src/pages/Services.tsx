@@ -1,9 +1,15 @@
 import React from "react";
 import { services } from "../data/data";
 
+type TServices = Array<{
+  name: string;
+  icon: React.JSX.Element;
+  description: string;
+}>;
+
 export const Services = () => {
-  const displayServices = (servicesArray) => {
-    return servicesArray.map((service) => (
+  const displayServices = (servicesArray: TServices) => {
+    return servicesArray.map((service: any) => (
       <div className="bg-almost-white px-4 py-24 md:w-[49%]" key={service.name}>
         <div>
           <h2 className="text-2xl text-center">{service.icon}</h2>

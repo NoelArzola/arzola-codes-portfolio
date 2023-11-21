@@ -1,6 +1,6 @@
-import { React } from "react";
+import React from "react";
 
-export const TopMenu = ({ handleLogoTap }) => {
+export const TopMenu = ({ handleLogoTap }: { handleLogoTap: any }) => {
   return (
     <header>
       <nav className=" bg-[#0e7b10] pt-7 pb-6 rounded-bl-[2rem] rounded-br-[2rem] lg:rounded-none fixed w-full flex justify-center lg:justify-start lg:pl-10 z-10">

@@ -22,7 +22,7 @@ const displayProjects = projectArray.map((project) => (
         href={project.codeURL}
         className="text-link-blue hover:underline icon-chevronright ml-9"
       >
-        View code<i className="pl-2 text-xs fa-solid fa-chevron-right"></i>
+        View code <i className="pl-2 text-xs fa-solid fa-chevron-right"></i>
       </a>
     </div>
     <figure className={project.comingSoon ? "hidden mt-5 px-8" : "mt-5 px-8"}>

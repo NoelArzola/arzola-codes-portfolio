@@ -1,4 +1,12 @@
-export const navItems = [
+import React from "react";
+
+type TNavItems = Array<{
+  title: string;
+  navLink: string;
+  hash?: string;
+}>;
+
+export const navItems: TNavItems = [
   {
     title: "services",
     navLink: "/services",
@@ -20,7 +28,12 @@ export const navItems = [
   },
 ];
 
-export const toolsArray = [
+type TToolsArray = Array<{
+  name: string;
+  icon: any;
+}>;
+
+export const toolsArray: TToolsArray = [
   {
     name: "HTML5",
     icon: <i className="fab fa-html5" aria-hidden="true"></i>,
@@ -36,6 +49,10 @@ export const toolsArray = [
   {
     name: "ReactJS",
     icon: <i className="fab fa-react" aria-hidden="true"></i>,
+  },
+  {
+    name: "Angular",
+    icon: <i className="fab fa-angular" aria-hidden="true"></i>,
   },
   {
     name: "Python",
@@ -67,7 +84,18 @@ export const toolsArray = [
   },
 ];
 
-export const projectArray = [
+type TProjects = Array<{
+  title: string;
+  description: string;
+  tools: string;
+  liveURL: string;
+  codeURL: string;
+  comingSoon?: boolean;
+  imageURL: string;
+  imageALT: string;
+}>;
+
+export const projectArray: TProjects = [
   {
     title: "Social Media App",
     tools: "Responsive HTML/CSS, React JavaScript",
@@ -117,7 +145,13 @@ export const projectArray = [
   },
 ];
 
-export const bio = {
+type IBio = {
+  imageURL: string;
+  heading: string;
+  paragraph: any;
+};
+
+export const bio: IBio = {
   imageURL: "https://noelarzola.com/img/hello.png",
   heading: "Just a short bio",
   paragraph: (
@@ -137,7 +171,13 @@ export const bio = {
   ),
 };
 
-export const contactInfo = {
+interface TContactInfo {
+  heading: string;
+  phoneNumber: any;
+  email: any;
+}
+
+export const contactInfo: TContactInfo = {
   heading: "hire me",
   phoneNumber: <a href="tel:+17403158315">+1.740.315.8315</a>,
   email: (
@@ -147,7 +187,14 @@ export const contactInfo = {
   ),
 };
 
-export const followMe = [
+type TFollowMe = Array<{
+  name: string;
+  url: string;
+  icon: any;
+  aria: string;
+}>;
+
+export const followMe: TFollowMe = [
   {
     name: "Twitter",
     url: "https://www.twitter.com/arzolacodes",
@@ -191,13 +238,25 @@ export const followMe = [
   },
 ];
 
-export const meetMe = {
+interface IMeetMe {
+  heading: string;
+  cityState: string;
+  tagline: string;
+}
+
+export const meetMe: IMeetMe = {
   heading: "meet me",
   cityState: "Vienna, WV",
   tagline: "Let's grab a coffee!",
 };
 
-export const services = [
+type TServices = Array<{
+  icon: any;
+  name: string;
+  description: string;
+}>;
+
+export const services: TServices = [
   {
     icon: <i className="fas fa-code" aria-hidden="true"></i>,
     name: "web development",
