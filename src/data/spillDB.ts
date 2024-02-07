@@ -1,4 +1,4 @@
-import pfp from "../images/user01.jpg";
+let pfp = "../images/user01.jpg";
 
 interface IPost {
   postID: number;
