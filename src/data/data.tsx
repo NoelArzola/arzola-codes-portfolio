@@ -259,20 +259,26 @@ type TServices = Array<{
 export const services: TServices = [
   {
     icon: <i className="fas fa-code" aria-hidden="true"></i>,
-    name: "web development",
+    name: "responsive web development",
     description:
       "If you need a site built, you're in the right place. I have worked on websites for individuals, influencers, small businesses and large companies. These sites have included shops, payments, and so much more.",
   },
   {
-    icon: <i className="fas fa-paint-brush" aria-hidden="true"></i>,
-    name: "bring your design to life",
-    description: `I love working with designers. I can work from designs in apps like Photoshop, XD, Figma, etc. Let's bring this design to life!`,
+    icon: <i className="fab fa-app-store" aria-hidden="true"></i>,
+    name: "mobile development",
+    description:
+      "I use Flutter to deploy cross-platform apps for Android and iOS. This speeds up development and allows for a consistent experience across your users' devices, while being able to still customize each platform indivdually for a native look and feel.",
   },
   {
     icon: <i className="fas fa-mobile-alt" aria-hidden="true"></i>,
     name: "mobile-friendly sites",
     description:
       "I work with a mobile first approach which ensures your site will look awesome on any screen it's accessed on - whether phone, tablet, or desktop.",
+  },
+  {
+    icon: <i className="fas fa-paint-brush" aria-hidden="true"></i>,
+    name: "bring your design to life",
+    description: `I love working with designers. I can work from designs in apps like Photoshop, XD, Figma, etc. Let's bring this design to life!`,
   },
   {
     icon: <i className="fab fa-wordpress-simple" aria-hidden="true"></i>,
