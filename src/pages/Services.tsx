@@ -12,8 +12,8 @@ export const Services = () => {
     return servicesArray.map((service: any) => (
       <div className="bg-almost-white px-4 py-24 md:w-[49%]" key={service.name}>
         <div>
-          <h2 className="text-2xl text-center">{service.icon}</h2>
-          <h2 className="font-jetbrains text-2xl text-center">
+          <h2 className="text-4xl text-center">{service.icon}</h2>
+          <h2 className="font-jetbrains text-2xl text-center mt-4">
             {service.name}
           </h2>
         </div>
