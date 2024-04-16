@@ -12,6 +12,11 @@ export const navItems: TNavItems = [
     navLink: "/services",
   },
   {
+    title: "testimonials",
+    navLink: "/",
+    hash: "#testimonies",
+  },
+  {
     title: "projects",
     navLink: "/",
     hash: "#projects",
@@ -291,5 +296,49 @@ export const services: TServices = [
     name: "retainer",
     description:
       "Allow me to maintain your site so you can have more time to focus on your day to day and advancing your business. Includes: coding, tweaks, tech, bug fixing, and maintenance tasks.",
+  },
+];
+
+export interface ITestimony {
+  reviewer: string;
+  title: string;
+  title2?: string;
+  business: string;
+  business2?: string;
+  review: string;
+  isShort?: boolean;
+}
+
+export const testimonies: ITestimony[] = [
+  {
+    reviewer: "Adam Tucker",
+    title: "Owner, Instructor",
+    business: "Ronin Martial Arts Academy",
+    review:
+      "Noah Centineo is a movie star on Netflix and I connected with his father Greg who is a big advisor/consultant to CEOs. We were lucky enough to get him to review our social media and website. He said our website was very clean and smooth and perfect. Our website helped us keep our business open during COVID, we are so happy that we hired Noel to implement Stripe checkout and online enrollment so that we could continue receiving enrollments as we maneuvered to teaching online until things opened back up.",
+  },
+  {
+    reviewer: "JaQuitta Robinson",
+    title: "Founder, Owner",
+    business: "Chic Next Door",
+    title2: "Founder, Technician",
+    business2: "Pretty In Pink Brow & Beauty",
+    review:
+      "I needed a website to grow my online prescence even further, and show brands my star power. This included features such as a blog where I could post frequently as a companion to my IG, as well as a page with my social media stats and plenty of places to contact me. I was handed off a true piece of art, my website was beautiful and had everything I needed and more. I like how easy it was for me to post and how easy it was to communicate my needs to receive results.",
+  },
+  {
+    reviewer: "LaCoya Austin",
+    title: "Owner, Designer, Creator",
+    business: "Kreative Weirdo",
+    review:
+      "Before getting my own website I was managing my business through Facebook posts and messages, and processing payments over Cash App and Venmo. Needless to say, it was pretty overwhelming once my business picked up momentum. Noel created a beautiful storefront for my business, where I could display hundreds of items for sale and even with special requests. I love that I can run sales and promotions and that purchases were offloaded onto a website I'm in full control of. Managing orders, getting paid, and shipping is a breeze on this new system.",
+  },
+  {
+    reviewer: "Adda Birnir",
+    title: "Founder, CEO",
+    business: "Skillcrush",
+    review:
+      "Have you even SEEN how slick and beautiful our website and platform are?????!!!!!",
+    isShort: true,
   },
 ];
